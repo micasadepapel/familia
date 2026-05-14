@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+  
+  <listeners>
+  <listener class-name="api.utilities.ExtentReportManager" />
+  
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--<class name="api.test.UserTest"/>-->
+      <class name="api.test.DDTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
